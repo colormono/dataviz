@@ -11,7 +11,8 @@ function MyApp({ Component, pageProps }) {
 
 export function reportWebVitals(metric) {
   if (metric.label === 'web-vital') {
-    console.log(metric); // The metric object ({ id, name, startTime, value, label }) is logged to the console
+    // The metric object ({ id, name, startTime, value, label }) is logged to the console
+    // console.log(metric);
   }
 }
 

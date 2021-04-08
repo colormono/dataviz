@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { useInterval } from 'ahooks';
 import * as d3 from 'd3';
 import { download, saveSvg } from '@/utils';
-import { Button, Canvas, Container } from '@/components';
+import { Button, Canvas, Caption, Container, Details } from '@/components';
 import { IconDownload } from '@/components/icons';
 
 const generateDataset = () =>
@@ -38,7 +38,7 @@ export default function Home() {
 
   const exportSvg = (data) => {
     const drawing = saveSvg(data);
-    return download(drawing, 'drawing.svg');
+    return download(drawing, 'day-001.svg');
   };
 
   return (
@@ -49,11 +49,14 @@ export default function Home() {
         </figure>
       </Canvas>
 
-      <div className="flex w-full justify-center my-8">
+      <Details>
+        <Caption>
+          <strong>Day 1:</strong> Hello D3
+        </Caption>
         <Button onClick={() => exportSvg(ref.current)}>
           <IconDownload /> Download
         </Button>
-      </div>
+      </Details>
     </Container>
   );
 }

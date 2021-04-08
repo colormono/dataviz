@@ -9,7 +9,7 @@ class MyDocument extends Document {
           <link href="/favicon.ico" rel="shortcut icon" />
         </Head>
 
-        <body className="antialiased bg-white dark:bg-black">
+        <body className="antialiased bg-gray-100 dark:bg-gray-900">
           <Main />
           <NextScript />
         </body>
