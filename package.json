@@ -9,6 +9,8 @@
     "export": "next export"
   },
   "dependencies": {
+    "@headlessui/react": "^1.0.0",
+    "@heroicons/react": "^1.0.1",
     "ahooks": "^2.10.0",
     "axios": "^0.21.1",
     "d3": "^6.6.2",

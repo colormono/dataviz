@@ -25,6 +25,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 This is an incomplete list of the resources that leaded my path. Thanks to every author.
 
 - [SVG element reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Element) - Documentation for each of the SVG elements
+- [D3 API Reference](https://github.com/d3/d3/blob/master/API.md)
+- [d3.lineRadial example](https://observablehq.com/@d3/d3-lineradial)
 - [React + D3.js](https://wattenberger.com/blog/react-and-d3) - Blog post by Amelia Wattenberger
 
 Feedback and contributions are welcome!
