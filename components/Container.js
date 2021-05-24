@@ -1,14 +1,14 @@
-import { useState, useEffect } from 'react';
-import { useTheme } from 'next-themes';
-import NextLink from 'next/link';
-import Head from 'next/head';
+import { useState, useEffect } from 'react'
+import { useTheme } from 'next-themes'
+import NextLink from 'next/link'
+import Head from 'next/head'
 
 export default function Container({ children }) {
-  const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false)
+  const { theme, setTheme } = useTheme()
 
   // After mounting, we have access to the theme
-  useEffect(() => setMounted(true), []);
+  useEffect(() => setMounted(true), [])
 
   return (
     <>
@@ -38,12 +38,19 @@ export default function Container({ children }) {
               <a className="p-1 sm:p-4 text-gray-600 dark:text-gray-600">Home</a>
             </NextLink> */}
 
-            <button aria-label="Toggle Dark Mode" type="button" className="h-6 w-6 ml-4 relative overflow-hidden focus:outline-none" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
+            <button
+              aria-label="Toggle Dark Mode"
+              type="button"
+              className="h-6 w-6 ml-4 relative overflow-hidden rounded focus:ring-gray-400 focus:outline-none focus:ring-2"
+              onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+            >
               {mounted && (
                 <>
                   {/* Sun */}
                   <svg
-                    className={`absolute inset-0 w-6 h-6 transform transition duration-200 ease-in-out text-gray-500 ${theme === 'dark' ? 'translate-y-0' : 'translate-y-full'} hover:text-white`}
+                    className={`absolute inset-0 w-6 h-6 transform transition duration-200 ease-in-out text-gray-500 ${
+                      theme === 'dark' ? 'translate-y-0' : 'translate-y-full'
+                    } hover:text-white`}
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -59,13 +66,20 @@ export default function Container({ children }) {
 
                   {/* Moon */}
                   <svg
-                    className={`absolute inset-0 w-6 h-6 transform transition duration-200 ease-in-out text-gray-400 ${theme === 'dark' ? '-translate-y-full' : 'translate-y-0'} hover:text-gray-900`}
+                    className={`absolute inset-0 w-6 h-6 transform transition duration-200 ease-in-out text-gray-400 ${
+                      theme === 'dark' ? '-translate-y-full' : 'translate-y-0'
+                    } hover:text-gray-900`}
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+                    ></path>
                   </svg>
                 </>
               )}
@@ -76,5 +90,5 @@ export default function Container({ children }) {
         <main>{children}</main>
       </div>
     </>
-  );
+  )
 }
