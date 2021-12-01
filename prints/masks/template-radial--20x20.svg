@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   sodipodi:docname="template-radial--20x20.svg"
+   xml:space="preserve"
+   style="enable-background:new 0 0 595.3 841.9;"
+   viewBox="0 0 595.3 841.9"
+   y="0px"
+   x="0px"
+   id="Layer_1"
+   version="1.1"><metadata
+   id="metadata15225"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
+   id="defs15223" /><sodipodi:namedview
+   inkscape:current-layer="Layer_1"
+   inkscape:window-maximized="0"
+   inkscape:window-y="97"
+   inkscape:window-x="199"
+   inkscape:cy="992.32783"
+   inkscape:cx="2.40223"
+   inkscape:zoom="0.5"
+   showguides="true"
+   inkscape:lockguides="false"
+   showgrid="false"
+   id="namedview15221"
+   inkscape:window-height="1220"
+   inkscape:window-width="1957"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0"
+   guidetolerance="10"
+   gridtolerance="10"
+   objecttolerance="10"
+   borderopacity="1"
+   bordercolor="#666666"
+   pagecolor="#ffffff"
+   inkscape:document-rotation="0" />
+<style
+   type="text/css"
+   id="style833">
+	.st0{fill:none;stroke:#565656;stroke-width:1.5;stroke-opacity:0.4;}
+	.st1{fill:none;stroke:#565656;stroke-width:1.5;}
+</style>
+<g
+   transform="matrix(1.329883,0,0,1.329883,0.24741223,0.24741223)"
+   id="g1847">
+	
+	<rect
+   class="st1"
+   width="566.90002"
+   height="566.90002"
+   id="rect1845"
+   x="0"
+   y="0" />
+</g>
+<circle
+   transform="scale(1,-1)"
+   r="301.84293"
+   cy="-377.20276"
+   cx="377.20276"
+   id="path29443"
+   style="fill:none;stroke:#555555;stroke-width:1.03854;stroke-opacity:0.4;stop-color:#000000" /></svg>
