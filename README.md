@@ -28,5 +28,6 @@ This is an incomplete list of the resources that leaded my path. Thanks to every
 - [D3 API Reference](https://github.com/d3/d3/blob/master/API.md)
 - [d3.lineRadial example](https://observablehq.com/@d3/d3-lineradial)
 - [React + D3.js](https://wattenberger.com/blog/react-and-d3) - Blog post by Amelia Wattenberger
-
-Feedback and contributions are welcome!
+- [Introduction to D3.js with Shirley Wu](https://www.youtube.com/watch?v=rQroxWLZiCo) - The Coding Train video
+- [Shirley Wu](https://shirleywu.studio/) - Artist portfolio
+  Feedback and contributions are welcome!
